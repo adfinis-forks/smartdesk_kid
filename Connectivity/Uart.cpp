@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-#include"COMMUNICATION/Uart.hpp"
+#include"Connectivity/Uart.hpp"
 
 char Uart::putByte(void* data) {
     this->writeApi((void *)data,1);    

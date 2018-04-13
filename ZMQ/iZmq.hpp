@@ -16,7 +16,7 @@
 #include <zmq.h>
 #include <iostream>
 #include <string.h>
-#include "COMMUNICATION/iCommunication.hpp"
+#include "Connectivity/iCommunication.hpp"
 class ZmqContext{
 
   ZmqContext(); 
