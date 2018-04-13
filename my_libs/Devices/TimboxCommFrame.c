@@ -1,4 +1,4 @@
-#include "Device/TimboxCommFrame.h"
+#include "Devices/TimboxCommFrame.h"
 void  _TIM_Rxarray2struct(uint8_t * array, uint16_t length,  TimotionRxStruct_Typedef *rxFrame){
   rxFrame->StartByte1 = array[0];
   rxFrame->StartByte2 = array[1];

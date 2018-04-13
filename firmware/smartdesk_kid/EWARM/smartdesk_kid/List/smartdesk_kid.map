@@ -1,0 +1,365 @@
+###############################################################################
+#
+# IAR ELF Linker V8.20.1.14183/W32 for ARM                13/Apr/2018  14:35:09
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Exe\smartdesk_kid.out
+#    Map file     =  
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\List\smartdesk_kid.map
+#    Command line =  
+#        -f C:\Users\thanhle\AppData\Local\Temp\EW89DE.tmp
+#        (F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\main.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\startup_stm32f103xe.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_cortex.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_dma.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_flash.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_flash_ex.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_gpio.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_gpio_ex.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_msp.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_pwr.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_rcc.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_rcc_ex.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_tim.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_tim_ex.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_hal_uart.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\stm32f1xx_it.o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj\system_stm32f1xx.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Exe\smartdesk_kid.out
+#        --map
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\List\smartdesk_kid.map
+#        --config
+#        F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/stm32f103xe_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x2000ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A0":                                      0x130
+  .intvec            ro code  0x08000000   0x130  startup_stm32f103xe.o [1]
+                            - 0x08000130   0x130
+
+"P1":                                     0x1618
+  .text              ro code  0x08000130   0x4e2  stm32f1xx_hal_rcc.o [1]
+  .text              ro code  0x08000614     0xc  stm32f1xx_hal.o [1]
+  .text              ro code  0x08000620    0x40  stm32f1xx_hal.o [1]
+  .text              ro code  0x08000660    0xe6  stm32f1xx_hal_cortex.o [1]
+  .text              ro code  0x08000748   0x380  stm32f1xx_hal_uart.o [1]
+  .text              ro code  0x08000ac8   0x248  stm32f1xx_hal_msp.o [1]
+  .text              ro code  0x08000d10   0x35c  stm32f1xx_hal_dma.o [1]
+  .text              ro code  0x0800106c     0x2  stm32f1xx_hal_uart.o [1]
+  .text              ro code  0x0800106e     0x2  stm32f1xx_hal_uart.o [1]
+  .text              ro code  0x08001070     0x2  stm32f1xx_hal_uart.o [1]
+  .text              ro code  0x08001074   0x1e0  stm32f1xx_hal_gpio.o [1]
+  .text              ro code  0x08001254   0x200  main.o [1]
+  .text              ro code  0x08001454    0x24  stm32f1xx_hal.o [1]
+  .text              ro code  0x08001478    0x5c  stm32f1xx_it.o [1]
+  .text              ro code  0x080014d4    0x10  stm32f1xx_hal.o [1]
+  .text              ro code  0x080014e4    0x5c  system_stm32f1xx.o [1]
+  .text              ro code  0x08001540    0x40  zero_init3.o [4]
+  .text              ro code  0x08001580    0x2c  copy_init3.o [4]
+  .text              ro code  0x080015ac    0x28  data_init.o [4]
+  .iar.init_table    const    0x080015d4    0x24  - Linker created -
+  .text              ro code  0x080015f8    0x1e  cmain.o [4]
+  .text              ro code  0x08001616     0x4  low_level_init.o [3]
+  .text              ro code  0x0800161a     0x4  exit.o [3]
+  .text              ro code  0x08001620     0xa  cexit.o [4]
+  .text              ro code  0x0800162c    0x14  exit.o [5]
+  .text              ro code  0x08001640    0x10  startup_stm32f103xe.o [1]
+  Initializer bytes  const    0x08001650    0x10  <for P2-1>
+  .text              ro code  0x08001660     0xc  cstartup_M.o [4]
+  .rodata            const    0x0800166c     0x8  system_stm32f1xx.o [1]
+  .text              ro code  0x08001674     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001678     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x0800167c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001680     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001684     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001688     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x0800168c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001690     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001694     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001698     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x0800169c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016a0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016a4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016a8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016ac     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016b0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016b4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016b8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016bc     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016c0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016c4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016c8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016cc     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016d0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016d4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016d8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016dc     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016e0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016e4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016e8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016ec     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016f0     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016f4     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016f8     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x080016fc     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001700     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001704     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001708     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x0800170c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001710     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001714     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001718     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x0800171c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001720     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001724     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001728     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x0800172c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001730     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001734     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001738     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x0800173c     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001740     0x4  startup_stm32f103xe.o [1]
+  .text              ro code  0x08001744     0x4  startup_stm32f103xe.o [1]
+  .rodata            const    0x08001748     0x0  zero_init3.o [4]
+  .rodata            const    0x08001748     0x0  copy_init3.o [4]
+                            - 0x08001748  0x1618
+
+"P2", part 1 of 3:                          0x10
+  P2-1                        0x20000000    0x10  <Init block>
+    .data            inited   0x20000000     0xc  stm32f1xx_hal.o [1]
+    .data            inited   0x2000000c     0x4  system_stm32f1xx.o [1]
+                            - 0x20000010    0x10
+
+"P2", part 2 of 3:                         0x18c
+  .bss               zero     0x20000010    0xc0  main.o [1]
+  .bss               zero     0x200000d0    0x44  main.o [1]
+  .bss               zero     0x20000114    0x44  main.o [1]
+  .bss               zero     0x20000158    0x44  main.o [1]
+                            - 0x2000019c   0x18c
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x200001a0   0x400  <Block>
+    CSTACK           uninit   0x200001a0   0x400  <Block tail>
+                            - 0x200005a0   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x18c:
+          0x20000010  0x18c
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x10:
+          0x08001650   0x10
+    1 destination range, total size 0x10:
+          0x20000000   0x10
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj: [1]
+    main.o                      512               396
+    startup_stm32f103xe.o       532
+    stm32f1xx_hal.o             128       12       12
+    stm32f1xx_hal_cortex.o      230
+    stm32f1xx_hal_dma.o         860
+    stm32f1xx_hal_gpio.o        480
+    stm32f1xx_hal_msp.o         584
+    stm32f1xx_hal_rcc.o       1 250
+    stm32f1xx_hal_uart.o        902
+    stm32f1xx_it.o               92
+    system_stm32f1xx.o           92       12        4
+    -------------------------------------------------
+    Total:                    5 662       24      412
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [4]
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      200
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         10
+    Linker created                        36    1 024
+-----------------------------------------------------
+    Grand Total:              5 900       60    1 436
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x080015d4          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x080015f8          --   Gb  - Linker created -
+?main                   0x080015f9         Code  Gb  cmain.o [4]
+AHBPrescTable           0x08001530   0x10  Data  Gb  system_stm32f1xx.o [1]
+APBPrescTable           0x0800166c    0x8  Data  Gb  system_stm32f1xx.o [1]
+BusFault_Handler        0x0800147f    0x2  Code  Gb  stm32f1xx_it.o [1]
+CSTACK$$Base            0x200001a0          --   Gb  - Linker created -
+CSTACK$$Limit           0x200005a0          --   Gb  - Linker created -
+DMA1_Channel3_IRQHandler
+                        0x08001499    0x6  Code  Gb  stm32f1xx_it.o [1]
+DMA1_Channel5_IRQHandler
+                        0x0800149f    0x6  Code  Gb  stm32f1xx_it.o [1]
+DMA1_Channel6_IRQHandler
+                        0x080014a5    0x6  Code  Gb  stm32f1xx_it.o [1]
+DebugMon_Handler        0x08001485    0x2  Code  Gb  stm32f1xx_it.o [1]
+HAL_DMA_Abort_IT        0x08000d97   0xdc  Code  Gb  stm32f1xx_hal_dma.o [1]
+HAL_DMA_IRQHandler      0x08000e73  0x1b4  Code  Gb  stm32f1xx_hal_dma.o [1]
+HAL_DMA_Init            0x08000d11   0x78  Code  Gb  stm32f1xx_hal_dma.o [1]
+HAL_GPIO_Init           0x08001075  0x196  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0800120b    0xc  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GetTick             0x08000615    0xc  Code  Wk  stm32f1xx_hal.o [1]
+HAL_IncTick             0x080014d5   0x10  Code  Wk  stm32f1xx_hal.o [1]
+HAL_Init                0x08001455   0x20  Code  Gb  stm32f1xx_hal.o [1]
+HAL_InitTick            0x08000621   0x40  Code  Wk  stm32f1xx_hal.o [1]
+HAL_MspInit             0x08000ac9   0x90  Code  Gb  stm32f1xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ      0x080006d3    0xa  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08000699   0x3a  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x0800067f   0x1a  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x0800044d  0x10c  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x080005a9    0x6  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x080005af   0x10  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x080005bf    0xe  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x0800056d   0x3c  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPLLMULFactorTable
+                        0x08000600   0x10  Data  Lc  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPredivFactorTable
+                        0x08000610    0x2  Data  Lc  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08000131  0x314  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x0800070f   0x1a  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x080006e7   0x28  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x08000741    0x4  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_UART_IRQHandler     0x080007cd  0x152  Code  Gb  stm32f1xx_hal_uart.o [1]
+HAL_UART_Init           0x08000749   0x1e  Code  Gb  stm32f1xx_hal_uart.o [1]
+HAL_UART_MspInit        0x08000b59  0x108  Code  Gb  stm32f1xx_hal_msp.o [1]
+HardFault_Handler       0x0800147b    0x2  Code  Gb  stm32f1xx_it.o [1]
+MemManage_Handler       0x0800147d    0x2  Code  Gb  stm32f1xx_it.o [1]
+NMI_Handler             0x08001479    0x2  Code  Gb  stm32f1xx_it.o [1]
+NVIC_SetPriority        0x08000661   0x1e  Code  Lc  stm32f1xx_hal_cortex.o [1]
+PendSV_Handler          0x08001487    0x2  Code  Gb  stm32f1xx_it.o [1]
+RCC_IRQHandler          0x08001497    0x2  Code  Gb  stm32f1xx_it.o [1]
+Region$$Table$$Base     0x080015d4          --   Gb  - Linker created -
+Region$$Table$$Limit    0x080015f8          --   Gb  - Linker created -
+SVC_Handler             0x08001483    0x2  Code  Gb  stm32f1xx_it.o [1]
+SysTick_Handler         0x08001489    0xe  Code  Gb  stm32f1xx_it.o [1]
+SystemClock_Config      0x080013e1   0x72  Code  Gb  main.o [1]
+SystemCoreClock         0x2000000c    0x4  Data  Gb  system_stm32f1xx.o [1]
+SystemInit              0x080014e5   0x3a  Code  Gb  system_stm32f1xx.o [1]
+UART_DMAAbortOnError    0x0800093d    0xc  Code  Lc  stm32f1xx_hal_uart.o [1]
+UART_EndRxTransfer      0x0800091f   0x1c  Code  Lc  stm32f1xx_hal_uart.o [1]
+UART_Receive_IT         0x08000949   0x96  Code  Lc  stm32f1xx_hal_uart.o [1]
+UART_SetConfig          0x080009df   0xde  Code  Lc  stm32f1xx_hal_uart.o [1]
+USART1_IRQHandler       0x080014ab    0x6  Code  Gb  stm32f1xx_it.o [1]
+USART2_IRQHandler       0x080014b1    0x6  Code  Gb  stm32f1xx_it.o [1]
+USART3_IRQHandler       0x080014b7    0x6  Code  Gb  stm32f1xx_it.o [1]
+UsageFault_Handler      0x08001481    0x2  Code  Gb  stm32f1xx_it.o [1]
+_Error_Handler          0x08001453    0x2  Code  Gb  main.o [1]
+__cmain                 0x080015f9         Code  Gb  cmain.o [4]
+__exit                  0x0800162d   0x14  Code  Gb  exit.o [5]
+__iar_copy_init3        0x08001581   0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x080015ad   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x08001661         Code  Gb  cstartup_M.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_zero_init3        0x08001541   0x40  Code  Gb  zero_init3.o [4]
+__low_level_init        0x08001617    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f103xe.o [1]
+_call_main              0x08001605         Code  Gb  cmain.o [4]
+_exit                   0x08001621         Code  Gb  cexit.o [4]
+_main                   0x08001613         Code  Gb  cmain.o [4]
+exit                    0x0800161b    0x4  Code  Gb  exit.o [3]
+hdma_usart1_rx          0x200000d0   0x44  Data  Gb  main.o [1]
+hdma_usart2_rx          0x20000114   0x44  Data  Gb  main.o [1]
+hdma_usart3_rx          0x20000158   0x44  Data  Gb  main.o [1]
+huart1                  0x20000010   0x40  Data  Gb  main.o [1]
+huart2                  0x20000050   0x40  Data  Gb  main.o [1]
+huart3                  0x20000090   0x40  Data  Gb  main.o [1]
+main                    0x08001255  0x172  Code  Gb  main.o [1]
+uwTick                  0x20000004    0x4  Data  Gb  stm32f1xx_hal.o [1]
+uwTickFreq              0x20000000    0x1  Data  Gb  stm32f1xx_hal.o [1]
+uwTickPrio              0x20000008    0x4  Data  Gb  stm32f1xx_hal.o [1]
+
+
+[1] = F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\smartdesk_kid\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  5 900 bytes of readonly  code memory
+     60 bytes of readonly  data memory
+  1 436 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
