@@ -18,7 +18,6 @@ void BOX_CONTROLLER_Update(void){
     else{
         while(1);
     }
-
 }
 
 void BOX_CONTROLLER_Run(void){
@@ -42,23 +41,19 @@ void BOX_CONTROLLER_SetState( BOX_STATE_Typedef state,unsigned short data){
     case BOX_STATE_DOWN:
         if(TimBoxCmd.GetConnectStatus()) {
             TimBoxCmd.SetState(TIMOTION_STATE_MBL_DOWN);
-        }
-
-            
+        }   
         break;
     case BOX_STATE_STOP:
         if(TimBoxCmd.GetConnectStatus()){           
            TimBoxCmd.SetOperationMode(MODE_MANUAL);
            TimBoxCmd.SetState(TIMOTION_STATE_MBL_STOP);
         }
-  
         break;
     case BOX_STATE_MIC:
          if(TimBoxCmd.GetConnectStatus())
          { 
             TimBoxCmd.SetState(TIMOTION_STATE_MBL_MIC);
          }
-
         break;
     case BOX_STATE_FREE:
         break;
@@ -66,45 +61,38 @@ void BOX_CONTROLLER_SetState( BOX_STATE_Typedef state,unsigned short data){
         if(TimBoxCmd.GetConnectStatus()){
             TimBoxCmd.SetState(TIMOTION_STATE_MBL_SAVE_SIT);
         }
-
         break;
     case BOX_STATE_SAVE_STAND:
         if(TimBoxCmd.GetConnectStatus()){
             TimBoxCmd.SetState(TIMOTION_STATE_MBL_SAVE_STAND);
         }
-
         break;
     case BOX_STATE_SIT:
         if(TimBoxCmd.GetConnectStatus()){
             TimBoxCmd.SetState(TIMOTION_STATE_MBL_SIT);
         }
-
         break;
     case BOX_STATE_STAND:
         if(TimBoxCmd.GetConnectStatus()){
              TimBoxCmd.SetState(TIMOTION_STATE_MBL_STAND);
         }
-
         break;
     case BOX_STATE_RESET:
         if(TimBoxCmd.GetConnectStatus()){
              TimBoxCmd.SetState(TIMOTION_STATE_RPI_RESET);
         }
-      
         break;
     }
 }
 void BOX_CONTROLLER_SetHeight(uint16_t height_mm){
     if(TimBoxCmd.GetConnectStatus()){
         TimBoxCmd.SetSetpointHeight(height_mm);
-    } 
-
-        
-
+    }
 }
 uint16_t BOX_CONTROLLER_GetHeight(void){
     uint16_t h;
     if(TimBoxCmd.GetConnectStatus()){
+      h=TimBoxCmd.GetCurrentHeight();
     } 
     return h;
 }

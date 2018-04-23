@@ -16,14 +16,6 @@ typedef enum {
     BOX_STATE_RESET
     
 } BOX_STATE_Typedef;
-
-
-
-
-/*
-    
-
-*/
 void BOX_CONTROLLER_Init(void);
 void BOX_CONTROLLER_Update(void);
 void BOX_CONTROLLER_Run(void);
