@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\settings\deskV2.Debug.general.xcl" --backend -f "F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\settings\deskV2.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\settings\deskV2.Debug.general.xcl" --backend -f "D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\settings\deskV2.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\settings\deskV2.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\settings\deskV2.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\settings\deskV2.Debug.general.xcl" --debug_file=$debugfile --backend -f "D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\settings\deskV2.Debug.driver.xcl" 
 }

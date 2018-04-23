@@ -1,4 +1,4 @@
-"D:\git\smartdesk_kid\firmware\old_code\MainApp\user\TimBox.c"
+"D:\git\smartdesk_kid\firmware\old_code\MainApp\user\Bluetooth.c"
 -std=c11
 -ferror-limit=0
 -I

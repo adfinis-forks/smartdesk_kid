@@ -1,43 +1,43 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.20.1.14183/W32 for ARM                13/Apr/2018  15:51:44
+# IAR ELF Linker V8.20.1.14183/W32 for ARM                18/Apr/2018  19:14:02
 # Copyright 2007-2017 IAR Systems AB.
 #
 #    Output file  =  
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Exe\deskV2.out
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Exe\deskV2.out
 #    Map file     =  
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\List\deskV2.map
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\List\deskV2.map
 #    Command line =  
-#        -f C:\Users\thanhle\AppData\Local\Temp\EWA83F.tmp
-#        (F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\AddonBoard.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\AutonomousCommFrame.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\BoxController.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\core_cm3.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\Debug.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\eeprom.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\main.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\misc.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\MyFlash.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\MyUart.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\RPI.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\startup_stm32f103xe.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_dma.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_flash.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_gpio.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_it.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_iwdg.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_rcc.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_tim.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_usart.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\system_stm32f10x.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\TimBox.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\TimboxCommFrame.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\Timer.o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\TimHandset.o
+#        -f C:\Users\QThan\AppData\Local\Temp\EW6351.tmp
+#        (D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\AddonBoard.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\AutonomousCommFrame.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\Bluetooth.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\BoxController.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\core_cm3.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\Debug.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\eeprom.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\main.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\misc.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\MyFlash.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\MyUart.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\startup_stm32f103xe.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_dma.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_flash.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_gpio.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_it.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_iwdg.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_rcc.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_tim.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\stm32f10x_usart.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\system_stm32f10x.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\TimBox.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\TimboxCommFrame.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\Timer.o
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj\TimHandset.o
 #        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Exe\deskV2.out
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Exe\deskV2.out
 #        --map
-#        F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\List\deskV2.map
+#        D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\List\deskV2.map
 #        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.0\arm\config\linker\ST\stm32f103xC.icf" --semihosting --entry
 #        __iar_program_start --redirect __iar_sh_stdout=__iar_sh_stdout_swo
@@ -83,7 +83,7 @@ initialize by copy { rw };
   .intvec            ro code  0x08000000   0x130  startup_stm32f103xe.o [1]
                             - 0x08000130   0x130
 
-"P1":                                     0x6ac9
+"P1":                                     0x6aca
   .text              ro code  0x08000130  0x2278  TimBox.o [1]
   .text              ro code  0x080023a8    0x1c  MyFlash.o [1]
   .text              ro code  0x080023c4   0x284  stm32f10x_rcc.o [1]
@@ -125,7 +125,7 @@ initialize by copy { rw };
   .text              ro code  0x080056b4     0x2  I64DivZer.o [5]
   .text              ro code  0x080056b8   0x168  DblAdd.o [4]
   .text              ro code  0x08005820    0x14  exit.o [6]
-  .text              ro code  0x08005834   0x5ac  RPI.o [1]
+  .text              ro code  0x08005834   0x5ac  Bluetooth.o [1]
   .text              ro code  0x08005de0   0x158  BoxController.o [1]
   .text              ro code  0x08005f38   0x1b8  AddonBoard.o [1]
   .text              ro code  0x080060f0    0x94  Debug.o [1]
@@ -136,8 +136,8 @@ initialize by copy { rw };
   .text              ro code  0x08006498   0x1ae  AutonomousCommFrame.o [1]
   .text              ro code  0x08006648   0x158  system_stm32f10x.o [1]
   .text              ro code  0x080067a0    0x68  TimboxCommFrame.o [1]
-  .rodata            const    0x08006808    0x58  BoxController.o [1]
-  .rodata            const    0x08006860    0x40  RPI.o [1]
+  .rodata            const    0x08006808    0x58  Bluetooth.o [1]
+  .rodata            const    0x08006860    0x40  Bluetooth.o [1]
   .text              ro code  0x080068a0    0x40  zero_init3.o [5]
   .rodata            const    0x080068e0    0x28  TimBox.o [1]
   .rodata            const    0x08006908    0x28  TimBox.o [1]
@@ -154,12 +154,12 @@ initialize by copy { rw };
   .rodata            const    0x08006a10    0x14  AutonomousCommFrame.o [1]
   .rodata            const    0x08006a24    0x14  Debug.o [1]
   .text              ro code  0x08006a38    0x10  startup_stm32f103xe.o [1]
-  .rodata            const    0x08006a48     0xc  RPI.o [1]
+  .rodata            const    0x08006a48     0xc  Bluetooth.o [1]
   .rodata            const    0x08006a54     0xc  TimBox.o [1]
   .text              ro code  0x08006a60     0xc  cstartup_M.o [5]
   .rodata            const    0x08006a6c     0x8  AutonomousCommFrame.o [1]
-  .rodata            const    0x08006a74     0x8  Debug.o [1]
-  .rodata            const    0x08006a7c     0x8  RPI.o [1]
+  .rodata            const    0x08006a74     0x8  Bluetooth.o [1]
+  .rodata            const    0x08006a7c     0x8  Debug.o [1]
   .rodata            const    0x08006a84     0x8  TimBox.o [1]
   .rodata            const    0x08006a8c     0x8  TimBox.o [1]
   .rodata            const    0x08006a94     0x8  TimBox.o [1]
@@ -171,20 +171,20 @@ initialize by copy { rw };
   .rodata            const    0x08006ac4     0x8  TimBox.o [1]
   .rodata            const    0x08006acc     0x8  TimBox.o [1]
   .rodata            const    0x08006ad4     0x6  xlocale_c.o [3]
-  .rodata            const    0x08006adc     0x4  RPI.o [1]
+  .rodata            const    0x08006adc     0x4  Bluetooth.o [1]
   .text              ro code  0x08006ae0     0x4  startup_stm32f103xe.o [1]
   .rodata            const    0x08006ae4     0x0  zero_init3.o [5]
   .rodata            const    0x08006ae4     0x0  lz77_init_single.o [5]
-  Initializer bytes  const    0x08006ae4   0x115  <for P2-1>
-                            - 0x08006bf9  0x6ac9
+  Initializer bytes  const    0x08006ae4   0x116  <for P2-1>
+                            - 0x08006bfa  0x6aca
 
 "P2", part 1 of 3:                         0x1ed
   P2-1                        0x20000000   0x1ed  <Init block>
     .data            inited   0x20000000    0x20  AddonBoard.o [1]
-    .data            inited   0x20000020     0xc  main.o [1]
-    .data            inited   0x2000002c    0x20  RPI.o [1]
-    .data            inited   0x2000004c    0x20  RPI.o [1]
-    .data            inited   0x2000006c    0x14  RPI.o [1]
+    .data            inited   0x20000020    0x20  Bluetooth.o [1]
+    .data            inited   0x20000040    0x20  Bluetooth.o [1]
+    .data            inited   0x20000060    0x14  Bluetooth.o [1]
+    .data            inited   0x20000074     0xc  main.o [1]
     .data            inited   0x20000080    0x20  stm32f10x_it.o [1]
     .data            inited   0x200000a0     0xc  stm32f10x_it.o [1]
     .data            inited   0x200000ac    0x10  stm32f10x_rcc.o [1]
@@ -210,29 +210,29 @@ initialize by copy { rw };
                             - 0x200001ed   0x1ed
 
 "P2", part 2 of 3:                         0x1c8
-  .bss               zero     0x200001f0    0x78  RPI.o [1]
+  .bss               zero     0x200001f0    0x78  Bluetooth.o [1]
   .bss               zero     0x20000268    0x50  xfiles.o [3]
   .bss               zero     0x200002b8    0x38  Debug.o [1]
   .bss               zero     0x200002f0    0x20  Debug.o [1]
   .bss               zero     0x20000310    0x20  TimBox.o [1]
   .bss               zero     0x20000330    0x1c  TimHandset.o [1]
-  .bss               zero     0x2000034c     0xc  RPI.o [1]
-  .bss               zero     0x20000358     0xc  RPI.o [1]
-  .bss               zero     0x20000364     0xc  RPI.o [1]
+  .bss               zero     0x2000034c     0xc  Bluetooth.o [1]
+  .bss               zero     0x20000358     0xc  Bluetooth.o [1]
+  .bss               zero     0x20000364     0xc  Bluetooth.o [1]
   .bss               zero     0x20000370     0xc  TimBox.o [1]
   .bss               zero     0x2000037c     0x8  TimBox.o [1]
   .bss               zero     0x20000384     0x8  TimBox.o [1]
   .bss               zero     0x2000038c     0x8  TimHandset.o [1]
-  .bss               zero     0x20000394     0x4  RPI.o [1]
+  .bss               zero     0x20000394     0x4  Bluetooth.o [1]
   .bss               zero     0x20000398     0x4  xfail_s.o [3]
   .bss               zero     0x2000039c     0x2  eeprom.o [1]
   .bss               zero     0x2000039e     0x2  TimBox.o [1]
   .bss               zero     0x200003a0     0x2  TimBox.o [1]
   .bss               zero     0x200003a2     0x2  TimBox.o [1]
   .bss               zero     0x200003a4     0x2  TimBox.o [1]
-  .bss               zero     0x200003a6     0x1  BoxController.o [1]
-  .bss               zero     0x200003a7     0x1  RPI.o [1]
-  .bss               zero     0x200003a8     0x1  RPI.o [1]
+  .bss               zero     0x200003a6     0x1  Bluetooth.o [1]
+  .bss               zero     0x200003a7     0x1  Bluetooth.o [1]
+  .bss               zero     0x200003a8     0x1  BoxController.o [1]
   .bss               zero     0x200003a9     0x1  TimBox.o [1]
   .bss               zero     0x200003aa     0x1  TimBox.o [1]
   .bss               zero     0x200003ab     0x1  TimBox.o [1]
@@ -265,8 +265,8 @@ Zero (__iar_zero_init3)
           0x200001f0  0x1c6
 
 Copy/lz77 (__iar_lz77_init_single3)
-    1 source range, total size 0x115 (56% of destination):
-          0x08006ae4  0x115
+    1 source range, total size 0x116 (56% of destination):
+          0x08006ae4  0x116
     1 destination range, total size 0x1ed:
           0x20000000  0x1ed
 
@@ -278,16 +278,16 @@ Copy/lz77 (__iar_lz77_init_single3)
 
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
-F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj: [1]
-    AddonBoard.o               440       37       32
+D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj: [1]
+    AddonBoard.o               440       38       32
     AutonomousCommFrame.o      430       28
-    BoxController.o            344       88        1
+    Bluetooth.o              1 452      223      246
+    BoxController.o            344                 1
     Debug.o                    148       56       88
     MyFlash.o                   28
     MyUart.o                 1 556
-    RPI.o                    1 452      135      246
-    TimBox.o                 8 824      223      164
-    TimHandset.o               932        8       50
+    TimBox.o                 8 824      224      164
+    TimHandset.o               932        7       50
     TimboxCommFrame.o          104
     eeprom.o                   936                 2
     main.o                      20        7       12
@@ -296,12 +296,12 @@ F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj: [1]
     stm32f10x_dma.o            492
     stm32f10x_flash.o          290
     stm32f10x_gpio.o           216
-    stm32f10x_it.o             432       25       44
+    stm32f10x_it.o             432       24       44
     stm32f10x_iwdg.o            32
-    stm32f10x_rcc.o            644       11       20
+    stm32f10x_rcc.o            644       12       20
     stm32f10x_tim.o            284
     stm32f10x_usart.o          612
-    system_stm32f10x.o         344        3        4
+    system_stm32f10x.o         344        2        4
     ------------------------------------------------
     Total:                  19 012      621      663
 
@@ -318,12 +318,12 @@ dl7M_tlf.a: [3]
     xencoding_8859_1.o          30
     xfail_s.o                   68                 4
     xfiles.o                             40      152
-    xlocale_c.o                120       78      128
+    xlocale_c.o                120       79      128
     xmbcurmax.o                 10
     xprintffull.o            3 918
     xprout.o                    22
     ------------------------------------------------
-    Total:                   4 270      118      284
+    Total:                   4 270      119      284
 
 m7M_tl.a: [4]
     DblAdd.o                   360
@@ -366,7 +366,7 @@ shb_l.a: [6]
     Gaps                        32        4
     Linker created                       32    4 096
 ----------------------------------------------------
-    Grand Total:            26 866      775    5 043
+    Grand Total:            26 866      776    5 043
 
 
 *******************************************************************************
@@ -383,9 +383,9 @@ ADDON_BOARD_Init        0x08005f89   0x122  Code  Gb  AddonBoard.o [1]
 ADDON_BOARD_Run         0x080060d9     0x8  Code  Gb  AddonBoard.o [1]
 ADDON_BOARD_Update      0x080060e1    0x10  Code  Gb  AddonBoard.o [1]
 APBAHBPrescTable        0x200000ac    0x10  Data  Lc  stm32f10x_rcc.o [1]
-AddonBoard              0x20000020     0xc  Data  Lc  main.o [1]
+AddonBoard              0x20000074     0xc  Data  Lc  main.o [1]
 AddonBoard              0x200000a0     0xc  Data  Lc  stm32f10x_it.o [1]
-AutonomousCommFrameCmd  0x2000002c    0x20  Data  Lc  RPI.o [1]
+AutonomousCommFrameCmd  0x20000020    0x20  Data  Lc  Bluetooth.o [1]
 AutonomousCommFrame_Array2Struct
                         0x08006537    0x3e  Code  Gb  AutonomousCommFrame.o [1]
 AutonomousCommFrame_GetParamsFromArray
@@ -414,8 +414,8 @@ BusFault_Handler        0x08006319     0x2  Code  Gb  stm32f10x_it.o [1]
 CSTACK$$Base            0x200003b8           --   Gb  - Linker created -
 CSTACK$$Limit           0x200013b8           --   Gb  - Linker created -
 CacheMore               0x08004b95    0x24  Code  Lc  xlocale_c.o [3]
-ComponentId             0x08006a48     0xc  Data  Lc  RPI.o [1]
-ControlTableAddress     0x08006860    0x40  Data  Lc  RPI.o [1]
+ComponentId             0x08006a48     0xc  Data  Lc  Bluetooth.o [1]
+ControlTableAddress     0x08006860    0x40  Data  Lc  Bluetooth.o [1]
 DEBUG_Init              0x0800610f    0x32  Code  Gb  Debug.o [1]
 DEBUG_LfFcn             0x08006101     0xe  Code  Gb  Debug.o [1]
 DEBUG_RX_Handles        0x200002b8    0x38  Data  Gb  Debug.o [1]
@@ -462,7 +462,7 @@ HardFault_Handler       0x08006315     0x2  Code  Gb  stm32f10x_it.o [1]
 IWDG_Enable             0x08006197     0xa  Code  Gb  stm32f10x_iwdg.o [1]
 IWDG_ReloadCounter      0x0800618d     0xa  Code  Gb  stm32f10x_iwdg.o [1]
 IWDG_WriteAccessCmd     0x08006185     0x8  Code  Gb  stm32f10x_iwdg.o [1]
-Instructions            0x08006adc     0x4  Data  Lc  RPI.o [1]
+Instructions            0x08006adc     0x4  Data  Lc  Bluetooth.o [1]
 LoadInt                 0x08003e0f    0x7a  Code  Lc  xprintffull.o [3]
 MY_FLASH_Init           0x080023a9     0xc  Code  Gb  MyFlash.o [1]
 MY_FLASH_Read           0x080023b5    0x10  Code  Gb  MyFlash.o [1]
@@ -473,7 +473,7 @@ NVIC_PriorityGroupConfig
                         0x08003bc1     0xa  Code  Gb  misc.o [1]
 NVIC_SetPriority        0x08005f39    0x22  Code  Lc  AddonBoard.o [1]
 PendSV_Handler          0x08006321     0x2  Code  Gb  stm32f10x_it.o [1]
-ProductId               0x08006a7c     0x8  Data  Lc  RPI.o [1]
+ProductId               0x08006a74     0x8  Data  Lc  Bluetooth.o [1]
 RCC_AHBPeriphClockCmd   0x0800250d    0x20  Code  Gb  stm32f10x_rcc.o [1]
 RCC_APB1PeriphClockCmd  0x0800254d    0x20  Code  Gb  stm32f10x_rcc.o [1]
 RCC_APB1PeriphResetCmd  0x0800258d    0x20  Code  Gb  stm32f10x_rcc.o [1]
@@ -488,25 +488,25 @@ RCC_IRQHandler          0x080063f1    0x44  Code  Gb  stm32f10x_it.o [1]
 RCC_ITConfig            0x08002433    0x20  Code  Gb  stm32f10x_rcc.o [1]
 RCC_PLLCmd              0x08002419     0x8  Code  Gb  stm32f10x_rcc.o [1]
 RCC_SYSCLKConfig        0x08002421    0x12  Code  Gb  stm32f10x_rcc.o [1]
-RPI_ConnectStatus       0x08005c03     0xc  Code  Gb  RPI.o [1]
-RPI_DMA_FLAG            0x200003a7     0x1  Data  Lc  RPI.o [1]
-RPI_DmaCallback         0x08005c0f    0xe6  Code  Gb  RPI.o [1]
-RPI_GetInfoFromPackage  0x08005849   0x25c  Code  Lc  RPI.o [1]
-RPI_Init                0x08005aa5    0xc8  Code  Gb  RPI.o [1]
-RPI_PutBytes            0x08005835    0x14  Code  Lc  RPI.o [1]
-RPI_Run                 0x08005c01     0x2  Code  Gb  RPI.o [1]
+RPI_ConnectStatus       0x08005c03     0xc  Code  Gb  Bluetooth.o [1]
+RPI_DMA_FLAG            0x200003a6     0x1  Data  Lc  Bluetooth.o [1]
+RPI_DmaCallback         0x08005c0f    0xe6  Code  Gb  Bluetooth.o [1]
+RPI_GetInfoFromPackage  0x08005849   0x25c  Code  Lc  Bluetooth.o [1]
+RPI_Init                0x08005aa5    0xc8  Code  Gb  Bluetooth.o [1]
+RPI_PutBytes            0x08005835    0x14  Code  Lc  Bluetooth.o [1]
+RPI_Run                 0x08005c01     0x2  Code  Gb  Bluetooth.o [1]
 RPI_SendControllerStatus
-                        0x08005d69    0x38  Code  Gb  RPI.o [1]
-RPI_SendMicTrigger      0x08005d2f    0x3a  Code  Gb  RPI.o [1]
-RPI_Update              0x08005b6d    0x94  Code  Gb  RPI.o [1]
+                        0x08005d69    0x38  Code  Gb  Bluetooth.o [1]
+RPI_SendMicTrigger      0x08005d2f    0x3a  Code  Gb  Bluetooth.o [1]
+RPI_Update              0x08005b6d    0x94  Code  Gb  Bluetooth.o [1]
 RPI_UpdateCurrentHeight
-                        0x08005cf5    0x3a  Code  Gb  RPI.o [1]
+                        0x08005cf5    0x3a  Code  Gb  Bluetooth.o [1]
 Region$$Table$$Base     0x08006958           --   Gb  - Linker created -
 Region$$Table$$Limit    0x08006978           --   Gb  - Linker created -
 RpiCmds                 0x20000000    0x20  Data  Lc  AddonBoard.o [1]
-RpiCmds                 0x2000004c    0x20  Data  Lc  RPI.o [1]
+RpiCmds                 0x20000040    0x20  Data  Lc  Bluetooth.o [1]
 RpiCmds                 0x20000080    0x20  Data  Lc  stm32f10x_it.o [1]
-RpiHandles              0x2000006c    0x14  Data  Lc  RPI.o [1]
+RpiHandles              0x20000060    0x14  Data  Lc  Bluetooth.o [1]
 SVC_Handler             0x0800631d     0x2  Code  Gb  stm32f10x_it.o [1]
 SetSysClock             0x0800669d     0x8  Code  Lc  system_stm32f10x.o [1]
 SetSysClockTo72         0x080066a5    0xe0  Code  Lc  system_stm32f10x.o [1]
@@ -566,7 +566,7 @@ TIM_HANDSET_rxCpy       0x08003085    0x4e  Code  Gb  TimHandset.o [1]
 TIM_HS_GetDisplayPrio   0x0800302f     0x6  Code  Gb  TimHandset.o [1]
 TIM_ITConfig            0x08006253    0x18  Code  Gb  stm32f10x_tim.o [1]
 TIM_TimeBaseInit        0x080061a5    0x92  Code  Gb  stm32f10x_tim.o [1]
-TimBoxCmd               0x08006808    0x58  Data  Lc  BoxController.o [1]
+TimBoxCmd               0x08006808    0x58  Data  Lc  Bluetooth.o [1]
 TimCommFrameCmd         0x200000d8    0x18  Data  Lc  TimBox.o [1]
 TimHandset              0x200000c4    0x14  Data  Lc  TimBox.o [1]
 TimboxFrameHeader       0x08006a84     0x8  Data  Lc  TimBox.o [1]
@@ -668,13 +668,13 @@ _gLocale_wctombInt      0x08004bed     0x4  Code  Gb  xlocale_c.o [3]
 _main                   0x08006993          Code  Gb  cmain.o [5]
 abort                   0x080056af     0x6  Code  Gb  abort.o [3]
 actionCount             0x200003b0     0x1  Data  Lc  TimBox.o [1]
-checkInit               0x200003a6     0x1  Data  Gb  BoxController.o [1]
+checkInit               0x200003a8     0x1  Data  Gb  BoxController.o [1]
 controlState            0x200003b3     0x1  Data  Lc  TimBox.o [1]
-controllerState         0x200003a8     0x1  Data  Lc  RPI.o [1]
+controllerState         0x200003a7     0x1  Data  Lc  Bluetooth.o [1]
 curCmd                  0x200001ec     0x1  Data  Lc  TimHandset.o [1]
 curState                0x200003ab     0x1  Data  Lc  TimBox.o [1]
 currentHeight           0x200001e4     0x2  Data  Lc  TimBox.o [1]
-dataFrame               0x20000358     0xc  Data  Lc  RPI.o [1]
+dataFrame               0x20000358     0xc  Data  Lc  Bluetooth.o [1]
 detectPinStatus         0x200003aa     0x1  Data  Lc  TimBox.o [1]
 displayPrio             0x200001eb     0x1  Data  Lc  TimHandset.o [1]
 downCmd                 0x08006a94     0x8  Data  Gb  TimBox.o [1]
@@ -711,10 +711,10 @@ preState                0x200003ac     0x1  Data  Lc  TimBox.o [1]
 printf                  0x08002d35    0x28  Code  Gb  printf.o [3]
 putchar                 0x080069f1     0xc  Code  Gb  putchar.o [3]
 resetCmd                0x08006acc     0x8  Data  Gb  TimBox.o [1]
-rpiDmaBuf               0x20000394     0x4  Data  Lc  RPI.o [1]
-rpiFrame                0x20000364     0xc  Data  Lc  RPI.o [1]
-rpiRxBuf                0x200001f0    0x78  Data  Lc  RPI.o [1]
-rpiTxBuf                0x2000034c     0xc  Data  Lc  RPI.o [1]
+rpiDmaBuf               0x20000394     0x4  Data  Lc  Bluetooth.o [1]
+rpiFrame                0x20000364     0xc  Data  Lc  Bluetooth.o [1]
+rpiRxBuf                0x200001f0    0x78  Data  Lc  Bluetooth.o [1]
+rpiTxBuf                0x2000034c     0xc  Data  Lc  Bluetooth.o [1]
 rxBuf                   0x200002f0    0x20  Data  Gb  Debug.o [1]
 rxFrame                 0x2000037c     0x8  Data  Gb  TimBox.o [1]
 saveCmd                 0x08006ac4     0x8  Data  Gb  TimBox.o [1]
@@ -749,7 +749,7 @@ txFrame                 0x20000384     0x8  Data  Gb  TimBox.o [1]
 upCmd                   0x08006a8c     0x8  Data  Gb  TimBox.o [1]
 
 
-[1] = F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj
+[1] = D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\Debug\Obj
 [2] = command line
 [3] = dl7M_tlf.a
 [4] = m7M_tl.a
@@ -757,7 +757,7 @@ upCmd                   0x08006a8c     0x8  Data  Gb  TimBox.o [1]
 [6] = shb_l.a
 
   26 866 bytes of readonly  code memory
-     775 bytes of readonly  data memory
+     776 bytes of readonly  data memory
    5 043 bytes of readwrite data memory
 
 Errors: none

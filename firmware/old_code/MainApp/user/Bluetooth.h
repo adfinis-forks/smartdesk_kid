@@ -1,5 +1,5 @@
-#ifndef __RPI_H
-#define __RPI_H
+#ifndef __BLUETOOTH_H
+#define __BLUETOOTH_H
 #include "stm32f10x.h"
 #include "MicroController/MyUart.h"
 #include "BoxController.h"
@@ -18,8 +18,6 @@ typedef struct {
 void RPI_Init(void);
 void RPI_Update(void);
 void RPI_Run(void);
-
-
 
 // Apis
 ConnectStatus_Typedef RPI_ConnectStatus(void);

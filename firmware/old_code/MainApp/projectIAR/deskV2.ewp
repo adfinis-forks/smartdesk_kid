@@ -347,9 +347,8 @@
                     <state>$PROJ_DIR$\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x</state>
                     <state>$PROJ_DIR$\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar</state>
                     <state>$PROJ_DIR$\..\Libraries\STM32F10x_StdPeriph_Driver\inc</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\..\Linux\myLib\Library\inc</state>
-                    <state>$PROJ_DIR$\..\..\..\..\..\..\..\hal_pic_st_ti\inc</state>
                     <state>F:\git\smartdesk_kid\my_libs</state>
+                    <state>D:\git\smartdesk_kid\my_libs</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2096,9 +2095,9 @@
             </file>
         </group>
         <group>
-            <name>HC05</name>
+            <name>Bluetooth</name>
             <file>
-                <name>$PROJ_DIR$\..\user\RPI.c</name>
+                <name>$PROJ_DIR$\..\user\Bluetooth.c</name>
             </file>
         </group>
         <file>

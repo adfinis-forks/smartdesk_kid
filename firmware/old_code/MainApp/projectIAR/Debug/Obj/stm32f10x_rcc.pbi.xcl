@@ -1,20 +1,18 @@
-"F:\git\smartdesk_kid\firmware\old_code\MainApp\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c"
+"D:\git\smartdesk_kid\firmware\old_code\MainApp\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c"
 -std=c11
 -ferror-limit=0
 -I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\user
+D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\user
 -I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
+D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
 -I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar
+D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar
 -I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\Libraries\STM32F10x_StdPeriph_Driver\inc
--I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\..\..\..\..\..\..\Linux\myLib\Library\inc
--I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\..\..\..\..\..\..\hal_pic_st_ti\inc
+D:\git\smartdesk_kid\firmware\old_code\MainApp\projectIAR\..\Libraries\STM32F10x_StdPeriph_Driver\inc
 -I
 F:\git\smartdesk_kid\my_libs
+-I
+D:\git\smartdesk_kid\my_libs
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -I
@@ -22,19 +20,17 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc\c
 -I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\user
+D:\git\smartdesk_kid\firmware\old_code\MainApp\user
 -I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
+D:\git\smartdesk_kid\firmware\old_code\MainApp\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
 -I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar
+D:\git\smartdesk_kid\firmware\old_code\MainApp\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\iar
 -I
-F:\git\smartdesk_kid\firmware\old_code\MainApp\Libraries\STM32F10x_StdPeriph_Driver\inc
--I
-F:\Linux\myLib\Library\inc
--I
-F:\hal_pic_st_ti\inc
+D:\git\smartdesk_kid\firmware\old_code\MainApp\Libraries\STM32F10x_StdPeriph_Driver\inc
 -I
 F:\git\smartdesk_kid\my_libs
+-I
+D:\git\smartdesk_kid\my_libs
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -D__CHAR_BITS__=8

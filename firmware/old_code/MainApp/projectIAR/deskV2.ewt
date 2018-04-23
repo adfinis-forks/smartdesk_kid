@@ -2427,9 +2427,9 @@
             </file>
         </group>
         <group>
-            <name>HC05</name>
+            <name>Bluetooth</name>
             <file>
-                <name>$PROJ_DIR$\..\user\RPI.c</name>
+                <name>$PROJ_DIR$\..\user\Bluetooth.c</name>
             </file>
         </group>
         <file>
