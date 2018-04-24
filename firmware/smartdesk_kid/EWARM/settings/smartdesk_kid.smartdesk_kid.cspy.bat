@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.general.xcl" --backend -f "F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.general.xcl" --backend -f "D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.general.xcl" "--debug_file=%~1" --backend -f "F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.general.xcl" "--debug_file=%~1" --backend -f "D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.driver.xcl" 
 
 @echo off 
 :end

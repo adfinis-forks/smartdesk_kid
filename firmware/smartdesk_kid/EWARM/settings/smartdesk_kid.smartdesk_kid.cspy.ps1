@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.general.xcl" --backend -f "F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.general.xcl" --backend -f "D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.general.xcl" --debug_file=$debugfile --backend -f "F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.general.xcl" --debug_file=$debugfile --backend -f "D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM\settings\smartdesk_kid.smartdesk_kid.driver.xcl" 
 }

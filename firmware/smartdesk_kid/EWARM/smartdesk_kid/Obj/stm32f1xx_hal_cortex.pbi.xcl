@@ -1,16 +1,22 @@
-"F:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c"
+"D:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c"
 -std=c11
 -ferror-limit=0
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Inc
+D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Inc
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
+D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
+D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
+D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Drivers/CMSIS/Device/ST/STM32F1xx/Include
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Drivers/CMSIS/Include
+D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Drivers/CMSIS/Include
+-I
+D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM3
+-I
+D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Middlewares/Third_Party/FreeRTOS/Source/include
+-I
+D:\git\smartdesk_kid\firmware\smartdesk_kid\EWARM/../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -I
@@ -18,15 +24,21 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\inc\c
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\Inc
+D:\git\smartdesk_kid\firmware\smartdesk_kid\Inc
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\STM32F1xx_HAL_Driver\Inc
+D:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\STM32F1xx_HAL_Driver\Inc
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
+D:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\CMSIS\Device\ST\STM32F1xx\Include
+D:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\CMSIS\Device\ST\STM32F1xx\Include
 -I
-F:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\CMSIS\Include
+D:\git\smartdesk_kid\firmware\smartdesk_kid\Drivers\CMSIS\Include
+-I
+D:\git\smartdesk_kid\firmware\smartdesk_kid\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3
+-I
+D:\git\smartdesk_kid\firmware\smartdesk_kid\Middlewares\Third_Party\FreeRTOS\Source\include
+-I
+D:\git\smartdesk_kid\firmware\smartdesk_kid\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\CMSIS\Include
 -D__CHAR_BITS__=8

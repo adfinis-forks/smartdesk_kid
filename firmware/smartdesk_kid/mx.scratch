@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
-<ProjectName>F:\git\smartdesk_kid\firmware\smartdesk_kid\\smartdesk_kid</ProjectName>
+<ProjectName>D:\git\smartdesk_kid\firmware\smartdesk_kid\\smartdesk_kid</ProjectName>
 <CMSIS>..\Drivers\CMSIS</CMSIS>
-<HAL_Driver>C:\Users\thanhle\STM32Cube\Repository\STM32Cube_FW_F1_V1.6.1\Drivers\CMSIS</HAL_Driver>
+<HAL_Driver>D:\stm32_reposity\STM32Cube_FW_F1_V1.6.1\Drivers\CMSIS</HAL_Driver>
 
 <Toolchain>EWARM</Toolchain>
 	<Toolversion>0</Toolversion>
@@ -39,11 +39,9 @@
         <define></define>
     </Adefines>   
 
-    <UsedFreeRTOS></UsedFreeRTOS>
+    <UsedFreeRTOS>true</UsedFreeRTOS>
     <Aincludes>
-
-
-	    	<include></include>
+		   		<include>$PROJ_DIR$\..\Inc</include>
     </Aincludes>
     <Cdefines>
     </Cdefines>
@@ -63,7 +61,10 @@
 	   <include>..\Inc</include>
 	   <include>..\Drivers\STM32F1xx_HAL_Driver\Inc</include>
 	   <include>..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy</include>
+	   <include>..\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM3</include>
 	   <include>..\Drivers\CMSIS\Device\ST\STM32F1xx\Include</include>
+	   <include>..\Middlewares\Third_Party\FreeRTOS\Source\include</include>
+	   <include>..\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS</include>
 	   <include>..\Drivers\CMSIS\Include</include>
 
     </Cincludes>
@@ -72,6 +73,42 @@
 
     <underRoot>false</underRoot>
 
+      <group>
+        <name>Middlewares</name>  
+                    <group>
+                            <name>FreeRTOS</name>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c</name>
+                                            </file>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM3/port.c</name>
+                                            </file>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/portable/IAR/ARM_CM3/portasm.s</name>
+                                            </file>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/croutine.c</name>
+                                            </file>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c</name>
+                                            </file>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/list.c</name>
+                                            </file>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/queue.c</name>
+                                            </file>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/tasks.c</name>
+                                            </file>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/timers.c</name>
+                                            </file>
+                                            <file>
+                                                    <name>../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c</name>
+                                            </file>
+                </group>
+      </group> 
 	   <group>
 	    <name>Drivers</name> 
 		   <group>
@@ -129,6 +166,10 @@
 	      <name>User</name>  
                                 <file>
                                  <name>..\Src\main.c</name>
+                                </file>
+
+                                <file>
+                                 <name>..\Src\freertos.c</name>
                                 </file>
 
                                 <file>
