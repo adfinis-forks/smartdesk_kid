@@ -1823,7 +1823,7 @@ static void prvAddNewTaskToReadyList( TCB_t *pxNewTCB )
 #endif /* ( ( INCLUDE_xTaskResumeFromISR == 1 ) && ( INCLUDE_vTaskSuspend == 1 ) ) */
 /*-----------------------------------------------------------*/
 
-void  nvTaskStartScheduler( void )
+void vTaskStartScheduler( void )
 {
 BaseType_t xReturn;
 

@@ -180,6 +180,10 @@
                                  <name>..\Src\stm32f1xx_hal_msp.c</name>
                                 </file>
 
+                                <file>
+                                 <name>..\Src\stm32f1xx_hal_timebase_TIM.c</name>
+                                </file>
+
 
 
 
